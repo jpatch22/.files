@@ -12,3 +12,6 @@ nvim -> .config/nvim
 skhd -> .config/skhd
 yabai -> .config/yabai
 
+## TMUX
+.tmux.conf -> ~/.tmux.conf \
+source ~/.tmux.conf
