@@ -1,2 +1,7 @@
 alias v="nvim"
 alias tracksight="cd ~/projects/Consolidated-Firmware/software/tracksight"
+alias cc="pbcopy"
+alias notebook="jupyter notebook"
+
+# TMUX
+alias tsource="tmux source-file"
