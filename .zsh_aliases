@@ -4,4 +4,4 @@ alias cc="pbcopy"
 alias notebook="jupyter notebook"
 
 # TMUX
-alias tsource="tmux source-file"
+alias tsource="tmux source-file ~/.tmux.conf"
