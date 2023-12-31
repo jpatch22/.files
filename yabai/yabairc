@@ -15,8 +15,16 @@ yabai -m config mouse_action2 move
 
 yabai -m mouse_drop_action swap
 
+# Set all padding and gaps to 20pt (default: 0)
+yabai -m config top_padding    10
+yabai -m config bottom_padding 10
+yabai -m config left_padding   10
+yabai -m config right_padding  10
+yabai -m config window_gap     10
+
 # Disable specific apps
 yabai -m rule --add app="^Parallels Desktop$" manage=off
 yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^Alfred Preferences$" manage=off
 yabai -m rule --add app="^Stickies$" manage=off
+borders active_color=0xAAFF0064 inactive_color=0xff494d64 width=10.0 &
