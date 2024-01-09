@@ -5,3 +5,8 @@ alias notebook="jupyter notebook"
 
 # TMUX
 alias tsource="tmux source-file ~/.tmux.conf"
+
+# Mac Keyboard bindings
+alias keydef="hidutil property --set '{\"UserKeyMapping\":[]}'"
+alias keylap="hidutil property --set '{\"UserKeyMapping\":[{\"HIDKeyboardModifierMappingSrc\":0x70000002A,\"HIDKeyboardModifierMappingDst\":0x700000029},{\"HIDKeyboardModifierMappingSrc\":0x700000039,\"HIDKeyboardModifierMappingDst\":0x70000002A}]}'"
+
